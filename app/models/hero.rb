@@ -1,4 +1,4 @@
-class Hero 
+class Hero
   attr_accessor :name, :power, :biography, :team
 
   HEROES = []
@@ -10,7 +10,7 @@ class Hero
     HEROES << self
   end
 
-  def self.all 
+  def self.all
     HEROES
   end
 

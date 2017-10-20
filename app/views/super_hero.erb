@@ -2,15 +2,17 @@
 <form action='/team' method="POST">
     <fieldset>
       <li>
-        <label>Pirate Name</label>
-        <input ... name="pirate[name]"/></li>
+        <label>Team Name:</label>
+        <input ... name="team[name]"/></li>
       <li>
-        <label>Pirate Weight</label>
-        <input ... name="pirate[weight]" />
-      </li>
+        <label>Team Motto:</label>
+        <input ... name="team[motto]" />
+      </li><br>
+
+      <h2>Hero 1</h2>
       <li>
-        <label>Pirate Height</label>
-        <input ... name="pirate[height]" />
+        <label>Hero's Name:</label>
+        <input ... id="hero_name_1" name="team[hero][][name]" />
       </li>
       <li>
         <label>Pirate First Ship Name</label>
